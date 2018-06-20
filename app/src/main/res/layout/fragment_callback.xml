@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
     tools:layout_editor_absoluteY="81dp">
 
     <Button
@@ -13,13 +14,13 @@
         android:layout_marginBottom="58dp"
         android:text="Run Toast Method From Activity"
         android:textSize="18sp"
-        app:layout_constraintBottom_toTopOf="@+id/button2"
-        app:layout_constraintEnd_toEndOf="@+id/button2"
-        app:layout_constraintStart_toStartOf="@+id/button2"
+        app:layout_constraintBottom_toTopOf="@+id/change_textview_button"
+        app:layout_constraintEnd_toEndOf="@+id/change_textview_button"
+        app:layout_constraintStart_toStartOf="@+id/change_textview_button"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/change_textview_button"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginBottom="58dp"
@@ -40,7 +41,7 @@
         app:layout_constraintBottom_toTopOf="@+id/remove_callback_button"
         app:layout_constraintEnd_toEndOf="@+id/remove_callback_button"
         app:layout_constraintStart_toStartOf="@+id/remove_callback_button"
-        app:layout_constraintTop_toBottomOf="@+id/button2" />
+        app:layout_constraintTop_toBottomOf="@+id/change_textview_button" />
 
     <Button
         android:id="@+id/remove_callback_button"
